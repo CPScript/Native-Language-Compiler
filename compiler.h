@@ -1,4 +1,4 @@
-// Comments are added to show how everything works, comments are generated using AI because im to lazy to do it myself
+// This header file contains the declarations for the compiler.
 #ifndef COMPILER_H
 #define COMPILER_H
 
