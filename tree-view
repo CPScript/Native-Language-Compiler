@@ -1,0 +1,25 @@
+compiler.h
+├── TokenType
+├── Token
+├── ASTNode
+├── Function Prototypes
+│   ├── log_message
+│   ├── tokenize
+│   ├── parse
+│   ├── generate_code
+│   ├── free_tokens
+│   └── free_ast
+└── compiler.c
+    ├── log_message
+    ├── tokenize
+    ├── AST Node Creation Functions
+    │   ├── create_mov_node
+    │   ├── create_add_node
+    │   ├── create_sub_node
+    │   ├── create_jmp_node
+    │   └── create_label_node
+    ├── parse
+    ├── print_ast
+    ├── free_ast
+    ├── free_tokens
+    └── generate_code
