@@ -1,4 +1,4 @@
-#include "compiler.h"
+#include "compiler.h" // Contains the main logic of the compiler, including tokenization, parsing, AST construction, and code generation.
 
 // Log messages to the log file
 void log_message(const char *message) {
